@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <Hello msg="Front-end Developer" profile="Copelia Altamirano"/>
   </div>
 </template>
