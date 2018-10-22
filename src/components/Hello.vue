@@ -19,6 +19,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body-b">
             <h5 class="card-title">Registro de Visitantes</h5>
+            <p><i class="fab fa-js"></i></p>
             <p class="card-text">Proyecto realizado con Vanilla JS, Firebase Authentication, Realtime Database y Bootstrap 4 </p>
             <a href="https://copelia.github.io/core-registro-visitantes/index.html" target="blank" rel="noopener">Ver proyecto</a>
           </div>
@@ -28,6 +29,7 @@
         <div class="card" style="width: 18rem;">
           <div class="card-body-c">
             <h5 class="card-title">Registro de Visitantes</h5>
+            <p><i class="fab fa-vuejs"></i></p>
             <p class="card-text">Proyecto realizado con Vanilla JS, Firebase Authentication, Realtime Database y Bootstrap 4 </p>
             <a href="https://copelia.github.io/core-registro-visitantes/index.html" target="blank" rel="noopener">Ver proyecto</a>
           </div>
