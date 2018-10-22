@@ -1,27 +1,26 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div class="nav" id="nav" style="font-family: 'Cabin Sketch'">
       <router-link to="/">Inicio</router-link> |
       <router-link to="/about">¿Quién?</router-link> |
       <router-link to="/contact">¿Dónde?</router-link>
-
     </div>
     <router-view/>
   </div>
 </template>
+
 <style lang="stylus">
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
+.nav
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  // text-align center
+  text-align right
   color #2c3e50
-
-#nav
   padding 30px
   a
     font-weight bold
     color #2c3e50
-    &.router-link-exact-active
+    font-size 2em
+    &.
+      router-link-exact-active
       color #42b983
 </style>

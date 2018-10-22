@@ -1,10 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div class="home">
+      <Hello msg="Front-end Developer" profile="Copelia Altamirano"/>
+    </div>
     <div class="bio-pic">
       <img class="rounded-circle" src="../assets/corali.png" alt="copelia descansando">
     </div>
-        <p class="card-text">Me gusta ir al bosque en dos ruedas</p>
+    <p class="card-text">Me gusta ir al bosque en dos ruedas</p>
   </div>
 </template>
 

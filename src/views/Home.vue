@@ -15,3 +15,12 @@ export default {
   },
 };
 </script>
+
+<style>
+ /* @import url('https://fonts.googleapis.com/css?family=Niramit'); */
+
+ .home{
+   font-family: Niramit;
+ }
+
+</style>
