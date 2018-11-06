@@ -1,9 +1,5 @@
 <template>
    <div class="container-fluid">
-      <div class="header">
-        <h4>Copelia Altamirano</h4>
-        <h5>Front-end Developer</h5>
-      </div>
     <div class="row">
       <div class="col-sm-4 col-12">
         <div class="card" style="width: 18rem;">
@@ -40,9 +36,7 @@
 
 <script>
 export default {
-  name: 'Hello',
-  props: {
-  },
+
 };
 </script>
 
@@ -51,13 +45,6 @@ export default {
    h4,
    h5 {
     font-family: Niramit;
-   }
-
-   .header{
-     text-align: right;
-     margin-bottom: 0.5em;
-     font-size: 4em;
-     color: #373D3F;
    }
    .card-body-a {
      background-color: #419B7F;

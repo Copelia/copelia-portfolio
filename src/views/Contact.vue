@@ -16,7 +16,10 @@
         <a href="https://dev.to/cocorali" target="_blanck">
           <i class="fab fa-dev"></i>
         </a>
-        <i class="far fa-file pair"></i>
+        <a href="../assets/CopeliaResume.pdf" download="CopeliaCV">
+        <i class="far fa-file pair">
+        </i>
+        </a>
       </div>
     </div>
   </div>
