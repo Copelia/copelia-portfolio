@@ -26,14 +26,17 @@
     font-size: 3vw;
   }
   .router-link-exact-active{
-    color: #2c3e50;
+    color: #484B3E;
+  }
+  a:hover{
+    color: #484B3E;
   }
 
  .header{
      text-align: right;
      margin-bottom: 0.5em;
      font-size: 2vw;
-     color: #2c3e50;
+     color: #484B3E;
   }
 
   @media screen and (max-width: 375px) {

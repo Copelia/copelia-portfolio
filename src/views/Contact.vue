@@ -37,4 +37,9 @@ i{
   color: #419B7F;
 }
 
+@media screen and (max-width: 375px) {
+  i{
+    font-size: 2em;
+  }
+}  
 </style>
