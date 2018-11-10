@@ -27,8 +27,8 @@
 
 <style>
 i{
-  margin: 10px 10px 10px 10px;
-  font-size: 5em;
+  margin: 1em 1em 1em 0.5em;
+  font-size: 3em;
   color: #64AF76;
   /* text-align: center !important; */
 }
@@ -39,7 +39,8 @@ i{
 
 @media screen and (max-width: 375px) {
   i{
-    font-size: 2em;
+    font-size: 2.5em;
+    margin: 15px 15px 15px 15px;
   }
 }  
 </style>
