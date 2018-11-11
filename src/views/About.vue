@@ -15,11 +15,13 @@
   </div>
 </template>
 
-<style>
+<script>
+export default {
 
-.bio-pic{
-  /* text-align: right; */
-}
+};
+</script>
+
+<style>
 
 img{
   width: 250px;

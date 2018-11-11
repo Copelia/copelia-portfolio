@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './components/Hello.vue';
+import Home from './views/About.vue';
 
 Vue.use(Router);
 
@@ -12,9 +12,9 @@ export default new Router({
       component: Home,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+      path: '/projects',
+      name: 'projects',
+      component: () => import(/* webpackChunkName: "projects" */ './components/Hello.vue'),
     },
     {
       path: '/contact',

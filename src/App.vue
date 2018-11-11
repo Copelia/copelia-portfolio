@@ -1,13 +1,24 @@
 <template>
   <div id="app">
-    <div class="nav">
-      <a class="navbar-brand">Copelia Altamirano</a>
-      <ul class="links-list .ml-5">
-      <router-link to="/">Inicio  |</router-link>
-      <router-link to="/about">  ¿Quién?  |</router-link>
-      <router-link to="/contact">  ¿Dónde?</router-link>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">Copelia A.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <router-link to="/" class="nav-item nav-link">Inicio  |</router-link>
+      </li>
+      <li>
+        <router-link to="/projects" class="nav-item nav-link">  Proyectos  |</router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/contact" class="nav-item nav-link">  ¿Dónde?</router-link>
+      </li>
+    </ul>
+  </div>
+</nav>
     <router-view/>
   </div>
 </template>
