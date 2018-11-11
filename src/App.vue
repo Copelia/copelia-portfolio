@@ -24,27 +24,27 @@
 </template>
 
 <style>
-.nav{
-  font-family: 'Cabin Sketch';
-  color: #42b983;
-  padding: 30px;
-}
 .navbar-brand{
+  font-family: 'Niramit';
+  color: #42b983 !important;
   font-size: 2em;
+  padding: 20px;
 }
-  a{
-    font-weight: bold;
-    color: #42b983;
+  /* .nav-item{
+    font-family: 'Niramit';
+    color: #42b983 !important;
     font-size: 1.5em;
-  } 
-  .links-list{
-    align-content:flex-end;
-  } 
-  .router-link-exact-active{
+  }  */
+  /* .router-link-exact-active{
     color: #484B3E;
-  }
-  a:hover{
+  } */
+  /* .nav-item:hover{
     color: #484B3E;
+  } */
+
+  .nav-link{
+    font-family: 'Niramit';
+    font-size: 1.5em;
   }
 
   @media screen and (max-width: 375px) {
