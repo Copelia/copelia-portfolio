@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row justify-center">
       <div class="col-12">
+        <div class="contact-list">
         <a href="https://github.com/Copelia" target="_blank" title="Github page">
           <i class="fab fa-github pair"></i>
         </a>
@@ -20,17 +21,20 @@
         <i class="far fa-file pair">
         </i>
         </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-<style>
+<style scoped>
+.contact-list{
+  margin: 5vw 2vw 5vw 2vw;
+}
 i{
   margin: 1em 1em 1em 0.5em;
   font-size: 3em;
   color: #64AF76;
-  /* text-align: center !important; */
 }
 
 .pair{
@@ -42,5 +46,5 @@ i{
     font-size: 2.5em;
     margin: 15px 15px 15px 15px;
   }
-}  
+}
 </style>

@@ -23,15 +23,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 img{
+  margin-top: 10vh;
   width: 250px;
   height: 250px;
 }
 
 .bio-info{
-  margin-top: 7vh;
+  margin-top: 10vh;
   font-family: Niramit;
   color: #484B3E;
 }
