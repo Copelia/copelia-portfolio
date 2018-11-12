@@ -3,12 +3,14 @@
     <div class="container home">
       <div class="row">
         <div class="col-md-6 bio-pic">
-          <img class="rounded-circle" src="../assets/cocorali.jpg" alt="copelia descansando">
+          <img class="rounded-circle" src="../assets/copelia.jpg" alt="copelia descansando">
         </div>
         <div class="col-md-6 bio-info">
-          <p class="card-text"> Hola! Soy Copelia Altamirano y soy Front-End Developer.
-             Tengo un gusto particular por Vue.js y por las bicicletas. 
-             Aquí encontrarás algunos de mis proyectos:</p>
+          <p class="card-text"> Hola! Soy Copelia Altamirano, Front-End Developer y psicóloga.
+             Tengo un gusto particular por Vue.js, andar en bicicleta y comer postres.
+             Ahora mismo estoy en busca de oportunidades laborales. Tengo buena capacidad de análisis, empatía y me gusta trabajar tanto individualmente como en equipos de trabajo.
+             Si estás buscando a alguien con una súper habilidad de aprender de forma autónoma, llegaste al lugar correcto.
+             </p>
         </div>
       </div>
     </div>
@@ -34,7 +36,7 @@ img{
   color: #484B3E;
 }
 
-@media (min-width: 740px) { 
+@media (min-width: 740px) {
   .bio-pic{
     display: inline-block;
   }
