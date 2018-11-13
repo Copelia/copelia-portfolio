@@ -1,5 +1,10 @@
 <template>
   <div class="container">
+    <!-- <div class="row">
+      <div class="col-md-6">
+        <p>Pongámonos en contacto para colaborar.</p>
+      </div>
+    </div> -->
     <div class="row justify-center">
       <div class="col-12">
         <div class="contact-list">
@@ -17,7 +22,7 @@
         <a href="https://dev.to/cocorali" target="_blanck">
           <i class="fab fa-dev"></i>
         </a>
-        <a href="../assets/CopeliaResume.pdf" download="CopeliaCV">
+        <a href="../assets/CopeliaCV.pdf" download="CopeliaCV">
         <i class="far fa-file pair">
         </i>
         </a>
@@ -30,6 +35,7 @@
 <style scoped>
 .contact-list{
   margin: 5vw 2vw 5vw 2vw;
+  text-align: center;
 }
 i{
   margin: 1em 1em 1em 0.5em;

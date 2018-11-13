@@ -14,13 +14,13 @@
         <router-link to="/projects" class="nav-item nav-link">  Proyectos  |</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/contact" class="nav-item nav-link">  ¿Dónde?</router-link>
+        <router-link to="/contact" class="nav-item nav-link">  Redes</router-link>
       </li>
     </ul>
   </div>
 </nav>
     <router-view/>
-    <footer>Copelia Altamirano || Laboratoria || CDMX || 2018 </footer>
+    <footer>Copelia Altamirano || CDMX || 2018 </footer>
   </div>
 </template>
 
@@ -56,9 +56,9 @@
     text-align: right;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
   a{
-    font-size: 20px;
+    font-size: 15px;
   }
   }
 </style>
