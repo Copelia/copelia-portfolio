@@ -25,7 +25,7 @@
             <h5 class="card-title">Garnachapp</h5>
             <p class="card-text">Red social para compartir alimentos típicos mexicanos.</p>
             <div class="row">
-            <div class="col-6">            
+            <div class="col-6">
             <a class="view-gh" href="https://github.com/Copelia/cdmx-2018-06-bc-core-am-social-network" target="blank" rel="noopener">Ver código</a>
             </div>
             <div class="col-6">            

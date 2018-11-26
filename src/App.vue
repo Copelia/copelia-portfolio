@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/">Copelia Altamirano</a>
+  <a class="navbar-brand" href="/copelia-portfolio/#/">Copelia Altamirano</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -31,18 +31,6 @@
   font-size: 2em;
   padding: 20px;
 }
-  /* .nav-item{
-    font-family: 'Niramit';
-    color: #42b983 !important;
-    font-size: 1.5em;
-  }  */
-  /* .router-link-exact-active{
-    color: #484B3E;
-  } */
-  /* .nav-item:hover{
-    color: #484B3E;
-  } */
-
   .nav-link{
     font-family: 'Niramit';
     font-size: 1.5em;
