@@ -25,16 +25,24 @@ export default {
 
 <style scoped>
 
-img{
+.home{
   margin-top: 10vh;
+}
+
+img{
   width: 250px;
   height: 250px;
 }
 
 .bio-info{
-  margin-top: 10vh;
+  margin: auto;
   font-family: Niramit;
   color: #484B3E;
+}
+
+.bio-pic{
+  margin: auto;
+  text-align: center;
 }
 
 @media (min-width: 740px) {

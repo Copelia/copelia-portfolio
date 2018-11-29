@@ -8,9 +8,6 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li>
-      <!-- <li class="nav-item">
-        <router-link to="/" class="nav-item nav-link">Inicio  |</router-link>
-      </li> -->
         <router-link to="/projects" class="nav-item nav-link">  Proyectos  |</router-link>
       </li>
       <li class="nav-item">
